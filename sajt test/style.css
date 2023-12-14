@@ -133,6 +133,16 @@ div.gallery {
     clear: both;
   }
 
+  .top {
+    position:relative; 
+    left:1350px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+  }
 
 /*=========================
 	End Header CSS
