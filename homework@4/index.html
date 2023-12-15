@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        table, th, td {
+        border:1px solid black;
+        margin: auto;
+      }
+      h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        margin: auto;
+       
+      }
+      h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #ff0000;
+        margin: auto;
+       
+      }
+      h3{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+        margin: auto;
+       
+      }
+      </style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>
+    <h1>Dado Tea Lunch Special</h1>
+    <h3>Monday through Friday <br> 11 am - 3 pm</h3>
+    <h2>$9.95 (plus tax)</h2>
+    <h3>Includes sandwich, snack and drinks</h3><br>
+
+    <form action="/action_page">
+      <fieldset>
+        <legend>Order information:</legend>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+
+        <input type="radio" id="here" name="fav_language" value="">
+        <label for="here">Here</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="to go" name="fav_language" value="">
+        <label style="position: relative; right: 4px; for="to go">To go</label>
+      </fieldset>
+
+      <form action="/action_page">
+        <fieldset>
+          <legend>Sandwiches:</legend>
+          <h3>Monday</h3>
+      <input type="radio" id="Tomato Moozzarella" name="tomato_mozzarela" value="">
+        <label for="Tomato Moozzarella">Tomato Moozzarella</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="Chicken Salad" name="chicken_salad" value="">
+        <label style="position: relative; right: 4px; for="Chicken Salad">Chicken Salad</label><hr>
+          <h3>Thuesday</h3>
+      <input type="radio" id="Greek SAlad Wrap" name="Greek_salad_wrap" value="">
+        <label for="Greek Salad Wrap">Greek Salad Wrap</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="Toto Wrap" name="toto_wrap" value="">
+        <label style="position: relative; right: 4px; for="Toto Wrap">Toto Wrap</label><hr>
+          <h3>Wednesday</h3>
+      <input type="radio" id="Red Pepper Hummus" name="red_pepper_hummus" value="">
+        <label for="Red Pepper Hummus">Red Pepper Hummus</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="Roasted Turkey" name="roasted_turkey" value="">
+        <label style="position: relative; right: 4px; for="Roasted Turkey">Roasted Turkey</label><hr>
+          <h3>Thursday</h3>
+      <input type="radio" id="Carrot-Ginger Hummmus Wrap" name="carrot_ginger_hummus_wrap" value="">
+        <label for="Carrot-Ginger Hummmus Wrap">Carrot-Ginger Hummmus Wrap</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="Egg Salad" name="egg_salad" value="">
+        <label style="position: relative; right: 4px; for="Egg Salad">Egg Salad</label><hr>
+          <h3>Friday</h3>
+      <input type="radio" id="Dado Wrap" name="dado_wrap" value="">
+        <label for="Dado Wrap">Dado Wrap</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="Tuna Salad" name="tuna_salad" value="">
+        <label style="position: relative; right: 4px; for="Tuna Salad">Tuna Salad</label>
+      <hr>
+      <input type="checkbox" id="glutenfree" name="glutenfree" value="">
+  <label style="color: #ff0000;" for="Glutenfree"> Gluten free bread (75¢ extra)</label><br>
+  </fieldset>
+  <form action="/action_page">
+    <fieldset>
+      <legend>Snack:</legend>
+      <h3>Snack</h3>
+      <input type="radio" id="Apple" name="apple" value="">
+        <label for="Apple">Apple</label><br>
+        <input style="position: relative; right: 2px;" type="radio" id="Banana" name="banana" value="">
+        <label style="position: relative; right: 4px; for="Banana">Banana</label><br>
+      <input style="position: relative; right: 2px;" type="radio" id="Potato Chips" name="potato_chips" value="">
+        <label style="position: relative; right: 4px; for="Potato Chips">Potato Chips</label>
+    </fieldset>
+    <form action="/action_page">
+      <fieldset>
+        <legend>Drinks:</legend>
+        <h3>Regular Size Drinks</h3>
+        <label for="drink">Choose a drink</label>
+        <select id="drink" name="drink">
+          <option value="Coffe or Iced Coffe">Coffe or Iced Coffe</option>
+          <option value="Organic Peppermint">Organic Peppermint</option>
+          <option value="Hot or Iced Sencha Green Tea">Hot or Iced Sencha Green Tea</option>
+          <option value="Hot or Iced Keemut Black Tea">Hot or Iced Keemut Black Tea</option>
+        </select>
+        <hr>
+        <input type="checkbox" id="extralarge" name="extralarge" value="">
+  <label style="color: #ff0000;" for="extralarge"> Large Drink (75¢ extra)</label><br>
+      </fieldset><br>
+      <input type="button" onclick="alert('Your order has been ready in 15 minutes!')" value="Place Order!">
+      <input type="button" onclick="alert('Your order has been canceled!')" value="Cancel Order!"><hr>
+    </form>
+   
+      </th>
+    </tr>
+  </table>
+    
+</body>
+</html>
